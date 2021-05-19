@@ -1,0 +1,7 @@
+{
+  "name": "ionicAngularPoc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

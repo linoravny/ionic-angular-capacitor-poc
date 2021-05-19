@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Shop</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <app-shop-item
+      *ngFor="let product of products"
+      [productItem]="product">
+    </app-shop-item>
+  </ion-list>
+</ion-content>
